@@ -22,9 +22,9 @@ int main(){
     std::cin >> z;
 
     if (isEven(z)) {
-        std::cout << z << " is even";
+        std::cout << z << " is even" << std::endl;
     } else {
-        std::cout << z << " is odd";
+        std::cout << z << " is odd" << std::endl;
     }
 
     return 0;
